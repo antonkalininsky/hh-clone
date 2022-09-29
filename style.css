@@ -1,0 +1,99 @@
+/* global */
+body {
+    padding: 0px 0px 0px 0px; /*?*/
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* main */
+.main {    
+    background-color: rgb(123, 123, 123);
+    height: 480px;
+    width: 100%;
+}
+
+.main .top-panel {
+    background-color: rgb(200, 123, 123);
+    height: 30px;
+}
+
+.main .top-panel .city-name {
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+.main .center-panel {
+    background-color: rgb(123, 200, 123);
+    height: 450px;
+}
+
+.main .center-panel .top-line {
+    height: 100px;
+}
+
+.main .center-panel .top-line .mini-menu {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+}
+.main .center-panel .top-line .mini-menu > * {
+    margin-right: 10px;
+}
+
+.main .center-panel .top-line .login-menu {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.main .center-panel .top-line .login-menu > * {
+    margin-right: 10px;
+}
+
+.main .center-panel .top-line .login-menu button {
+    height: 20px;
+}
+
+.main .center-panel .center-line {
+    background-color: rgb(250, 250, 250);
+    height: 250px;
+}
+
+.main .center-panel .center-line .search-bar {
+    position: absolute;
+    top: 30%; /*?*/
+    width: 100%;
+    text-align: center; /*?*/
+
+}
+
+.main .center-panel .bottom-line {
+    background-color: rgb(254, 0, 0);
+    height: 100px;
+    position: sticky;
+    bottom: 0px;
+}
+
+.main .center-panel .bottom-line .stat-data {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 300px;
+}
+
+.main .center-panel .bottom-line .app-buttons {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+/* cards1 */
+.cards1 {
+    height: 10000px;
+    background-color: black;
+}
