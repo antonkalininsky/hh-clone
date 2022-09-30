@@ -19,6 +19,7 @@ p {
 .main .top-panel {
     background-color: rgb(200, 123, 123);
     height: 30px;
+    display: flex;
 }
 
 .main .top-panel .city-name {
@@ -53,7 +54,7 @@ p {
 }
 
 .main .center-panel .top-line .login-menu > * {
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .main .center-panel .top-line .login-menu button {
@@ -83,17 +84,127 @@ p {
 .main .center-panel .bottom-line .stat-data {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 300px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 50px;
 }
 
 .main .center-panel .bottom-line .app-buttons {
     display: flex;
     position: absolute;
-    right: 10px;
+    top: 30%;
+    right: 50px;
+}
+
+.main .center-panel .bottom-line .app-buttons > * {
+    margin-left: 10px;
 }
 
 /* cards1 */
 .cards1 {
+    height: 300px;
+    background-color:rgb(123, 200, 123);
+}
+
+.cards1 .cards-grid {
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    gap: 20px;
+}
+
+.cards1 .cards-grid .job-card {
+}
+
+.cards1 .cards-grid .job-card .job-name {
+}
+
+.cards1 .cards-grid .job-card .job-price {
+}
+
+.cards1 .cards-grid .job-card .job-place {
+}
+
+.cards1 .more-cards {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+
+/* cards2 */
+.cards2 {
+    background-color: aqua;
+    height: 500px;
+}
+
+.cards2 .content {
+    width: 100%;
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.cards2 .content .left-bar {
+    border-right: 3px solid black;
+}
+
+.cards2 .content .left-bar .header {
+    
+}
+
+.cards2 .content .left-bar .list {
+    
+}
+
+.cards2 .content .left-bar .list .list-item {
+    display: flex;
+    margin-top: 10px;
+}
+
+.cards2 .content .left-bar .list .list-item > * {
+    margin-right: 30px;
+}
+
+.cards2 .content .left-bar .list .list-item .company-name {
+
+}
+
+.cards2 .content .left-bar .list .list-item .value {
+}
+
+.cards2 .content .right-cards {
+    width: 100%;
+    text-align: center;   
+}
+
+.cards2 .content .right-cards .header {
+}
+
+.cards2 .content .right-cards .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.cards2 .content .right-cards .cards .card-item {
+}
+
+.cards2 .content .right-cards .cards .card-item > *{
+}
+
+/* list1 */
+/* list2 */
+/* article */
+
+
+/* ending */
+.ending {
     height: 10000px;
     background-color: black;
 }
