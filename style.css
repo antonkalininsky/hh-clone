@@ -50,18 +50,21 @@ p {
 }
 
 .main .center-panel {
-    background-color: grey;
+    background-color: rgb(73, 73, 73);
     height: 450px;
+    overflow: hidden;
 }
 
 .main .center-panel img {
     opacity: 0.5;
-    max-height: 100%;
     max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
 }
 
 .main .center-panel .top-line {
     height: 100px;
+    color: white;
 }
 
 .main .center-panel .top-line .mini-menu {
