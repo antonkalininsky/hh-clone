@@ -1,0 +1,40 @@
+@import url("main-top-panel.css");
+@import url("main-center-panel-top-line.css");
+@import url("main-center-panel-center-line.css");
+@import url("main-center-panel-bottom-line.css");
+
+.main {    
+    height: 500px;
+    width: 100%;
+    display: grid;
+    gap: 0px;
+    grid-template-rows: 50px 450px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.main .center-panel {
+}
+
+.main .center-panel .bg{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(73, 73, 73);
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.main .center-panel .bg img {
+    z-index: -1;
+    opacity: 0.5;
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+}
+
+.main .center-panel .content {
+    z-index: 0;
+}
+
+

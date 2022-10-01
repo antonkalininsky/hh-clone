@@ -1,3 +1,5 @@
+@import url("main.css");
+
 /* global */
 body {
     padding: 0px 0px 0px 0px; /*?*/
@@ -9,125 +11,11 @@ p {
     margin: 0px 0px 0px 0px;
 }
 
+
+
 .padding-wrapper {
-    /*max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;*/
     padding-left: 50px;
     padding-right: 50px;
-}
-
-/* main */
-.main {    
-    height: 480px;
-    width: 100%;
-    border-bottom: 2px solid grey;
-}
-
-.main .top-panel {
-    background-color: white;
-    height: 50px;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.main .top-panel .top-item {
-    position: relative;
-}
-
-.main .top-panel .city-name {
-    top: 30%;
-    text-align: left;
-}
-
-.main .top-panel .vision-help {
-    top: 15%;
-    text-align: right;
-}
-
-.main .top-panel .vision-help img {
-    width: 50px;
-}
-
-.main .center-panel {
-    background-color: rgb(73, 73, 73);
-    height: 450px;
-    overflow: hidden;
-}
-
-.main .center-panel img {
-    opacity: 0.5;
-    max-width: 100%;
-    max-height: auto;
-    object-fit: cover;
-}
-
-.main .center-panel .top-line {
-    height: 100px;
-    color: white;
-}
-
-.main .center-panel .top-line .mini-menu {
-    display: flex;
-    position: absolute;
-    left: 50px;
-    top: 70px;
-}
-.main .center-panel .top-line .mini-menu > * {
-    margin-right: 10px;
-}
-
-.main .center-panel .top-line .login-menu {
-    display: flex;
-    position: absolute;
-    right: 50px;
-    top: 70px;
-}
-
-.main .center-panel .top-line .login-menu > * {
-    margin-left: 10px;
-}
-
-.main .center-panel .top-line .login-menu button {
-    height: 20px;
-}
-
-.main .center-panel .center-line {
-    height: 250px;
-}
-
-.main .center-panel .center-line .search-bar {
-    position: absolute;
-    top: 30%; /*?*/
-    width: 100%;
-    text-align: center; /*?*/
-
-}
-
-.main .center-panel .bottom-line {
-    height: 100px;
-    position: sticky;
-    bottom: 0px;
-}
-
-.main .center-panel .bottom-line .stat-data {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 200px;
-    position: absolute;
-    top: 30%;
-    left: 50px;
-}
-
-.main .center-panel .bottom-line .app-buttons {
-    display: flex;
-    position: absolute;
-    top: 30%;
-    right: 50px;
-}
-
-.main .center-panel .bottom-line .app-buttons > * {
-    margin-left: 10px;
 }
 
 /* cards1 */

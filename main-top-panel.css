@@ -1,0 +1,47 @@
+.main .top-panel {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;   
+}
+
+.main .top-panel .top-item {
+    position: relative;
+}
+
+.top-item a {
+    text-decoration: none;
+}
+
+.top-item a p {
+    font-size: 18px;
+}
+
+.top-item a:link {
+    color: rgb(5, 113, 150);
+}
+
+.top-item a:visited {
+    color: rgb(5, 113, 150);
+}
+
+.top-item a:hover {
+    color: rgb(0, 54, 72);
+}
+
+.top-item a:active {
+    color: rgb(5, 113, 150);
+}
+
+.main .top-panel .city-name {
+    top: 30%;
+    text-align: left;
+}
+
+.main .top-panel .vision-help {
+    top: 15%;
+    text-align: right;
+}
+
+.main .top-panel .vision-help img {
+    width: 50px;
+}

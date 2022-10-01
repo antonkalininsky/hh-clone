@@ -1,0 +1,90 @@
+/*==========CENTER LINE==========*/
+
+.main .center-panel .center-line {
+    height: 250px;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.main .center-panel .center-line .search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.main .center-panel .center-line .search-bar .search-group {
+    display: flex;
+    justify-content: center;
+}
+
+.main .center-panel .center-line .search-bar .search-group .do-search {
+    border: none;
+    outline: none;
+    background-color: rgb(68, 68, 231);
+    color: white;
+    width: 120px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.main .center-panel .center-line .search-bar .search-group .do-search:hover {
+    background-color: rgb(53, 53, 215);
+}
+
+.main .center-panel .center-line .search-bar .search-group .do-search:focus {
+    background-color: rgb(68, 68, 231);
+    outline: 3px solid rgb(100, 100, 255);
+}
+
+.main .center-panel .center-line .search-bar input {
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.main .center-panel .center-line .search-bar input:focus {
+    border: none; 
+    outline: none;  
+}
+
+.main .center-panel .center-line .search-bar .search-header {
+    color: white;
+}
+
+.main .center-panel .center-line .search-bar h1 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.main .center-panel .center-line .search-bar .adv-search-box {
+    height: 42px;
+    width: 40px;
+    background-color: white;
+}
+
+.main .center-panel .center-line .search-bar .adv-search {
+    margin-top: 6px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.main .center-panel .center-line .search-bar .adv-search img {
+    opacity: 0.8;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main .center-panel .center-line .search-bar .worker-search {
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.main .center-panel .center-line .search-bar p {
+    font-size: 18px;
+}
