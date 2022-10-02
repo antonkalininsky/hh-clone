@@ -81,12 +81,16 @@
 }
 
 .main .center-panel .center-line .search-bar .worker-search {
-    margin-top: 20px;
-    color: white;   
-    width: 160px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.main .center-panel .center-line .search-bar .worker-search:hover {
+.main .center-panel .center-line .search-bar .worker-search a {
+    margin-top: 20px;
+    color: white;
+}
+
+.main .center-panel .center-line .search-bar .worker-search a:hover {
     color: rgb(239, 173, 173);   
 }
 

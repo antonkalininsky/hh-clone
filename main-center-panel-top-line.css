@@ -3,17 +3,20 @@
 .main .center-panel .top-line {
     height: 100px;
     color: white;
-    display: grid;
-    grid-template-columns: 25% 50% 25%;    
+    display: flex;
+    justify-content: space-between;
 }
 
 .main .center-panel .top-line .mini-menu {
-    display: grid;
-    grid-template-columns: 20% 40% 40%;
-    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .center-panel .top-line .mini-menu > * {
+    margin-right: 15px;
 }
 
 .main .center-panel .top-line .mini-menu .logo {
+    margin-top: 23px;
     width: 50px;
     height: 50px;
 }
@@ -54,7 +57,7 @@
 
 .main .center-panel .top-line .login-menu {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     padding-top: 30px;
 }
 
@@ -69,7 +72,10 @@
     cursor: pointer;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 20px;
+}
+
+.main .center-panel .top-line .login-menu .spacer {
+    width: 20px;
 }
 
 .main .center-panel .top-line .login-menu .login-button {
