@@ -1,7 +1,7 @@
 .main .top-panel {
     background-color: white;
-    display: grid;
-    grid-template-columns: auto auto;   
+    display: flex;
+    justify-content: space-between;
 }
 
 .main .top-panel .top-item {
@@ -9,19 +9,21 @@
 }
 
 .top-item a {
-    text-decoration: none;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2em;
+    width: 30px;
 }
 
 .top-item a p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .top-item a:link {
-    color: rgb(5, 113, 150);
+    color: rgb(0, 128, 170);
 }
 
 .top-item a:visited {
-    color: rgb(5, 113, 150);
+    color: rgb(0, 128, 170);
 }
 
 .top-item a:hover {
@@ -29,7 +31,7 @@
 }
 
 .top-item a:active {
-    color: rgb(5, 113, 150);
+    color: rgb(0, 128, 170);
 }
 
 .main .top-panel .city-name {

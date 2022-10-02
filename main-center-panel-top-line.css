@@ -29,7 +29,7 @@
 }
 
 .menu-text a p {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .menu-text a {
@@ -53,21 +53,43 @@
 }
 
 .main .center-panel .top-line .login-menu {
-    display: grid;
-    grid-template-columns: 20% 30% 40%;
-    gap: 5%;
+    display: flex;
+    justify-content: right;
     padding-top: 30px;
 }
 
+.main .center-panel .top-line .login-menu a {
+    height: 40px;
+}
+
 .main .center-panel .top-line .login-menu button {
-    background-color: rgba(198, 198, 198, 0.5);
     font-size: 16px;
     height: 40px;
     border-radius: 30px;
-    border: 1px solid black;
     cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
 }
 
-.main .center-panel .top-line .login-menu button:hover {
-    border: 3px solid black;
+.main .center-panel .top-line .login-menu .login-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none; 
+    outline: 1px solid white;
+}
+
+.main .center-panel .top-line .login-menu .login-button:hover {
+    outline: 3px solid white;
+}
+
+.main .center-panel .top-line .login-menu .reg-button {
+    background-color: rgba(106, 216, 96, 0.1);
+    color: rgb(106, 216, 96);
+    border: none; 
+    outline: 1px solid rgb(106, 216, 96);
+}
+
+.main .center-panel .top-line .login-menu .reg-button:hover {
+    outline: 3px solid rgb(106, 216, 96);
 }

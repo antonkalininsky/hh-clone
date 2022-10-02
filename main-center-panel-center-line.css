@@ -22,19 +22,20 @@
 .main .center-panel .center-line .search-bar .search-group .do-search {
     border: none;
     outline: none;
-    background-color: rgb(68, 68, 231);
+    background-color: rgb(96, 96, 241);
     color: white;
     width: 120px;
+    height: 42px;
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
 }
 
 .main .center-panel .center-line .search-bar .search-group .do-search:hover {
-    background-color: rgb(53, 53, 215);
+    background-color: rgb(69, 69, 228);
 }
 
 .main .center-panel .center-line .search-bar .search-group .do-search:focus {
-    background-color: rgb(68, 68, 231);
+    background-color: rgb(96, 96, 241);
     outline: 3px solid rgb(100, 100, 255);
 }
 
@@ -81,10 +82,16 @@
 
 .main .center-panel .center-line .search-bar .worker-search {
     margin-top: 20px;
-    color: white;
-    
+    color: white;   
+    width: 160px;
 }
 
-.main .center-panel .center-line .search-bar p {
+.main .center-panel .center-line .search-bar .worker-search:hover {
+    color: rgb(239, 173, 173);   
+}
+
+.main .center-panel .center-line .search-bar a {
     font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
