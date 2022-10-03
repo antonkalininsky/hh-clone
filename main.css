@@ -3,22 +3,19 @@
 @import url("main-center-panel-center-line.css");
 @import url("main-center-panel-bottom-line.css");
 
-.main {    
-    height: 500px;
+.main { 
     width: 100%;
-    display: grid;
-    gap: 0px;
-    grid-template-rows: 50px 450px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main .center-panel {
+    height: 550px;  
 }
 
 .main .center-panel .bg{
     width: 100%;
-    height: 450px;
+    height: inherit;
     background-color: rgb(73, 73, 73);
     position: absolute;
     z-index: -2;
@@ -35,6 +32,13 @@
 
 .main .center-panel .content {
     z-index: 0;
+}
+
+.main .center-panel .center-panel-flex {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 

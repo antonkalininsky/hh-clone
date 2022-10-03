@@ -1,8 +1,7 @@
 /*==========CENTER LINE==========*/
 
 .main .center-panel .center-line {
-    height: 250px;
-    /*border: 2px solid red;*/
+    height: 50%;
     display: flex;
     justify-content: center;
     padding-top: 2%;
@@ -31,12 +30,13 @@
 }
 
 .main .center-panel .center-line .search-bar .search-group .do-search:hover {
-    background-color: rgb(69, 69, 228);
+    background-color: rgb(83, 83, 213);
 }
 
 .main .center-panel .center-line .search-bar .search-group .do-search:focus {
-    background-color: rgb(96, 96, 241);
-    outline: 3px solid rgb(100, 100, 255);
+    background-color: rgb(80, 80, 197);
+    height: 42px;
+    border-top: 3px solid rgb(47, 47, 121);
 }
 
 .main .center-panel .center-line .search-bar input {
