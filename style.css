@@ -1,4 +1,5 @@
 @import url("main.css");
+@import url("cards1.css");
 
 /* global */
 body {
@@ -22,40 +23,6 @@ button {
 .padding-wrapper {
     padding-left: 50px;
     padding-right: 50px;
-}
-
-/* cards1 */
-.cards1 {
-    height: 300px;
-    border-bottom: 2px solid grey;
-}
-
-.cards1 .cards-grid {
-    position: absolute;
-    left: 50px;
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    width: 100%;
-    gap: 20px;
-}
-
-.cards1 .cards-grid .job-card {
-}
-
-.cards1 .cards-grid .job-card .job-name {
-}
-
-.cards1 .cards-grid .job-card .job-price {
-}
-
-.cards1 .cards-grid .job-card .job-place {
-}
-
-.cards1 .more-cards {
-    position: absolute;
-    bottom: 0px;
-    left: 50px;
 }
 
 /* cards2 */
@@ -190,4 +157,8 @@ button {
     margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.spacer {
+    height: 1500px;
 }

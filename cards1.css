@@ -1,0 +1,81 @@
+/* cards1 */
+.cards1 {
+    margin-top: 50px;
+}
+
+.cards1 .cards-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.cards1 .cards-grid .card {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cards1 .cards-grid a {
+    text-decoration: none;
+}
+.cards1 .cards-grid .job-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px 3px 3px 3px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.cards1 .cards-grid .job-card:hover{
+    box-shadow: -5px 5px 5px 0 rgb(229, 229, 229),
+                2px 2px 3px 0 rgba(229, 229, 229, 1);
+}
+
+.cards1 .cards-grid .job-card .side-bar {
+    width: 10px;
+    height: auto;
+    background-color: rgb(229, 229, 229);
+    outline: 1px solid rgb(212, 212, 212);
+    border-radius: 3px 0px 0px 3px;
+}
+
+.cards1 .cards-grid .job-card .info {
+    width: inherit;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -1px rgb(229, 229, 229),
+                1px 0px rgb(229, 229, 229),
+                0px 1px rgb(229, 229, 229);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.cards1 .cards-grid .job-card .info .job-name {
+    color: rgb(0, 128, 170);
+    font-size: 18px;
+}
+
+.cards1 .cards-grid .job-card .info  .job-price {
+    color: black;
+    font-size: 16px;
+}
+
+.cards1 .cards-grid .job-card .info  .job-place {
+    margin-top: 5px;
+    color: grey;
+    font-size: 14px;
+}
+
+.cards1 .more-cards {
+    color: rgb(0, 128, 170);
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards1 .more-cards:hover {
+    color: rgb(0, 54, 72);
+}
