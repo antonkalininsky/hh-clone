@@ -1,0 +1,111 @@
+/* list1 */
+.list1 {
+    margin-top: 20px;
+    height: 360px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.list1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.list1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.list1 a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.list1 .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.list1 .content .left-list {
+    border-right: 1px solid rgb(225, 225, 225);
+}
+
+.list1 .content .left-list .header {
+    font-weight: bold;
+}
+
+.list1 .content .left-list .list {
+    display: grid;
+    grid-template-columns: auto auto auto;    
+}
+
+.list1 .content .left-list .list .list-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.list1 .content .left-list .list .list-item {
+    width: fit-content;
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+.list1 .content .right-banner {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.list1 .content .right-banner .banner-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.list1 .content .right-banner .banner-body .banner {
+    height: 120px;
+    
+}
+
+.list1 .content .right-banner .banner-body .banner img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.list1 .content .right-banner .banner-body .app-buttons {
+    margin-left: 20px;
+}
+
+.list1 .right-banner .app-buttons .app-btn {
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.list1 .right-banner .app-buttons .app-btn .logo-text {
+    margin-left: 5px;
+    margin-top: 2px;
+    color: white;
+}
+
+.list1 .right-banner .app-buttons .app-btn .logo-text .top-text p{
+    font-size: 10px;
+}
+
+.list1 .content .right-banner .banner-body .app-buttons .app-btn .logo {
+    width: 25px;
+}
+
+.list1 .content .right-banner .banner-body .app-buttons .app-google .logo {
+    margin-top: 2px;
+}
+
+.list1 .content .right-banner .banner-body .app-buttons .app-btn .logo img {
+    max-width: 100%;
+    max-height: 100%;
+}

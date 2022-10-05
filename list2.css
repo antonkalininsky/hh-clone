@@ -1,0 +1,11 @@
+/* list2 */
+.list2 {
+    height: 300px;
+    padding-top: 50px;
+    border-bottom: 2px solid grey;
+}
+
+.list2 .content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

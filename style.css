@@ -1,5 +1,8 @@
 @import url("main.css");
 @import url("cards1.css");
+@import url("cards2.css");
+@import url("list1.css");
+@import url("list2.css");
 
 /* global */
 body {
@@ -25,109 +28,7 @@ button {
     padding-right: 50px;
 }
 
-/* cards2 */
-.cards2 {
-    height: 500px;
-    border-bottom: 2px solid grey;
-}
 
-.cards2 .content {
-    width: 100%;
-    position: absolute;
-    left: 50px;
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 25% 75%;
-}
-
-.cards2 .content .left-bar {
-    border-right: 3px solid black;
-}
-
-.cards2 .content .left-bar .header {
-    
-}
-
-.cards2 .content .left-bar .list {
-    
-}
-
-.cards2 .content .left-bar .list .list-item {
-    display: flex;
-    margin-top: 10px;
-}
-
-.cards2 .content .left-bar .list .list-item > * {
-    margin-right: 30px;
-}
-
-.cards2 .content .left-bar .list .list-item .company-name {
-
-}
-
-.cards2 .content .left-bar .list .list-item .value {
-}
-
-.cards2 .content .right-cards {
-    width: 100%;
-    text-align: center;   
-}
-
-.cards2 .content .right-cards .header {
-}
-
-.cards2 .content .right-cards .cards {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
-}
-
-.cards2 .content .right-cards .cards .card-item {
-}
-
-.cards2 .content .right-cards .cards .card-item > *{
-}
-
-/* list1 */
-.list1 {
-    height: 300px;
-    padding-top: 50px;
-    border-bottom: 2px solid grey;
-}
-
-.list1 .content {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 75% 25%;
-}
-
-.list1 .content .left-list {
-    margin-left: 30px;
-    border-right: 3px solid black;
-}
-
-.list1 .content .left-list .header {
-    font-weight: bold;
-}
-
-.list1 .content .left-list .list {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
-    margin-top: 30px;
-}
-
-/* list2 */
-.list2 {
-    height: 300px;
-    padding-top: 50px;
-    border-bottom: 2px solid grey;
-}
-
-.list2 .content {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
 
 /* article */
 .article {
