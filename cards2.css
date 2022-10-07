@@ -1,33 +1,31 @@
 /* cards2 */
 .cards2 {
-    height: 400px;
+    
 }
 
 .cards2 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
 .cards2 p {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
 .cards2 .content {
     width: 100%;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 25% 75%;
+    display: flex;
+    flex-direction: row;
 }
 
 .cards2 .content .left-bar {
-    width: 300px;
     height: auto;
     border-right: 1px solid rgb(225, 225, 225);
 }
 
 .cards2 .content .left-bar .table {
     width: 250px;
+    padding-right: 30px;
 }
 
 .cards2 .content .left-bar .table .header {
@@ -51,7 +49,7 @@
 }
 
 .cards2 .content .right-cards {
-    width: 100%;
+    padding-left: 30px;
 }
 
 .cards2 .content .right-cards .header {
@@ -98,5 +96,27 @@
     color: rgb(83, 83, 83);
 }
 
+@media screen and (max-width: 900px) {
+    .cards2 .content {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
 
+    .cards2 .content .left-bar {
+        height: auto;
+        border-right: none;
+    }
+
+    .cards2 .content .right-cards {
+        padding-left: 0px;
+    }
+
+    .cards2 .content .left-bar .table {
+        width: 250px;
+        padding-right: 0px;
+    }
+    
+}
 
