@@ -3,6 +3,14 @@
 @import url("main-center-panel-center-line.css");
 @import url("main-center-panel-bottom-line.css");
 
+.main p {
+    color: white;
+}
+
+.main a {
+    color: white;
+}
+
 .main { 
     width: 100%;
     display: flex;
@@ -28,8 +36,6 @@
     margin-right: auto;
     z-index: -1;
     opacity: 0.5;
-    /*max-width: 100%;
-    height: auto;*/
     object-fit: cover;
 }
 

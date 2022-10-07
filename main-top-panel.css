@@ -2,47 +2,26 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 40px;
 }
 
-.main .top-panel .top-item {
-    position: relative;
-}
-
-.top-item a {
+.main .top-panel a {
     text-decoration: underline dotted;
     text-underline-offset: 0.2em;
-    width: 30px;
-}
-
-.top-item a p {
-    font-size: 16px;
-}
-
-.top-item a:link {
+    width: fit-content;
     color: rgb(0, 128, 170);
 }
 
-.top-item a:visited {
-    color: rgb(0, 128, 170);
-}
-
-.top-item a:hover {
+.main .top-panel a:hover {
     color: rgb(0, 54, 72);
 }
 
-.top-item a:active {
-    color: rgb(0, 128, 170);
-}
-
 .main .top-panel .city-name {
-    top: 30%;
-    text-align: left;
+    margin-top: 10px;
 }
 
 .main .top-panel .vision-help {
-    top: 15%;
-    text-align: right;
+    margin-top: 5px;
 }
 
 .main .top-panel .vision-help img {

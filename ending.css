@@ -1,0 +1,22 @@
+/* ending */
+.ending {
+    height: 400px;
+    background-color: grey;
+}
+
+.ending .content .top-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.ending .content .middle-menu {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.ending .content .bottom-info {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
