@@ -1,10 +1,8 @@
-/*==========CENTER LINE==========*/
-
 .main .center-panel .center-line {
-    height: 50%;
+    height: 200px;
     display: flex;
     justify-content: center;
-    padding-top: 2%;
+    align-items: center;
 }
 
 .main .center-panel .center-line .search-bar {
@@ -13,12 +11,16 @@
     justify-content: left;
 }
 
+.main .center-panel .center-line .search-bar .search-header {
+    margin-bottom: 20px;
+}
+
 .main .center-panel .center-line .search-bar .search-group {
     display: flex;
     justify-content: center;
 }
 
-.main .center-panel .center-line .search-bar .search-group .do-search {
+.main .center-panel .center-line .search-bar .search-group .search-btn {
     border: none;
     outline: none;
     background-color: rgb(96, 96, 241);
@@ -29,14 +31,14 @@
     cursor: pointer;
 }
 
-.main .center-panel .center-line .search-bar .search-group .do-search:hover {
+.main .center-panel .center-line .search-bar .search-group .search-btn:hover {
     background-color: rgb(83, 83, 213);
 }
 
-.main .center-panel .center-line .search-bar .search-group .do-search:focus {
+.main .center-panel .center-line .search-bar .search-group .search-btn:focus {
     background-color: rgb(80, 80, 197);
     height: 42px;
-    border-top: 3px solid rgb(47, 47, 121);
+    border-top: 3px solid rgb(60, 60, 152);
 }
 
 .main .center-panel .center-line .search-bar input {
@@ -47,16 +49,14 @@
     outline: none;
     border-radius: 5px 0px 0px 5px;
 }
+
 .main .center-panel .center-line .search-bar input:focus {
     border: none; 
     outline: none;  
 }
 
-.main .center-panel .center-line .search-bar .search-header {
-    color: white;
-}
-
 .main .center-panel .center-line .search-bar h1 {
+    color: white;
     font-weight: bold;
     font-size: 38px;
 }
@@ -95,7 +95,22 @@
 }
 
 .main .center-panel .center-line .search-bar a {
-    font-size: 18px;
     text-decoration: underline;
     text-underline-offset: 0.2em;
+}
+
+@media screen and (max-width: 750px) {
+    .main .center-panel .center-line .search-bar input {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main .center-panel .center-line .search-bar input {
+        width: 300px;
+    }
+
+    .main .center-panel .center-line .search-bar .search-group .search-btn {
+        width: 80px;        
+    }
 }
