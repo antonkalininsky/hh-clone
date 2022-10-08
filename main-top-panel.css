@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
     height: 40px;
+    line-height: 40px;
 }
 
 .main .top-panel a {
     text-decoration: underline dotted;
-    text-underline-offset: 0.2em;
+    text-underline-offset: 0.3em;
     width: fit-content;
     color: rgb(0, 128, 170);
 }
@@ -17,13 +18,16 @@
 }
 
 .main .top-panel .city-name {
-    margin-top: 10px;
+    text-align: center;
 }
 
-.main .top-panel .vision-help {
-    margin-top: 5px;
+.main .top-panel .vision-help .img-center {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .main .top-panel .vision-help img {
     width: 50px;
+    vertical-align: middle;
 }
