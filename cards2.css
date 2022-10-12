@@ -1,122 +1,116 @@
 /* cards2 */
 .cards2 {
-    
-}
-
-.cards2 h1 {
-    font-size: 20px;
-}
-
-.cards2 p {
-    font-size: 16px;
-}
-
-.cards2 .content {
-    width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
 }
 
-.cards2 .content .left-bar {
-    height: auto;
-    border-right: 1px solid rgb(225, 225, 225);
-}
-
-.cards2 .content .left-bar .table {
-    width: 250px;
-    padding-right: 30px;
-}
-
-.cards2 .content .left-bar .table .header {
+.cards2 .header {
     margin-bottom: 30px;
 }
 
-.cards2 .content .left-bar .table .list .list-item {
+.cards2 .left-bar {
+    height: auto;
+    border-right: 1px solid rgb(225, 225, 225);
+    width: fit-content;
+}
+
+.cards2 .left-bar .table {
+    width: 250px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.cards2 .left-bar .table .list-item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    
 }
 
-.cards2 .content .left-bar .table .list a {
-    text-decoration: none;
-    color: black;
-}
-
-.cards2 .content .left-bar .table .list .list-item .value {
+.cards2 .left-bar .table .list-item .value {
     color: grey;
 }
 
-.cards2 .content .right-cards {
+.cards2 .right-cards {
     padding-left: 30px;
 }
 
-.cards2 .content .right-cards .header {
-    margin-bottom: 30px;
-}
-
-.cards2 .content .right-cards .cards a {
-    text-decoration: none;
-}
-
-.cards2 .content .right-cards .cards {
+.cards2 .right-cards .cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.cards2 .content .right-cards .cards .card-item {
+.cards2 .right-cards .cards .card {
+    width: 250px;
+}
+
+.cards2 .right-cards .cards .card-item {
     display: flex;
     flex-direction: column;
     justify-content: left;
     margin-right: 40px;
     margin-bottom: 40px;
     cursor: pointer;
+    width: fit-content;
 }
 
-.cards2 .content .right-cards .cards .card-item > * {
+
+.cards2 .right-cards .cards .card-item p {
+    white-space: normal;
+}
+
+.cards2 .right-cards .cards .card-item > * {
     margin-bottom: 5px;
 }
 
-.cards2 .content .right-cards .cards .card-item .job-name {
-    color: black;
-}
-
-.cards2 .content .right-cards .cards .card-item .job-price {
-    color: black;
-}
-
-.cards2 .content .right-cards .cards .card-item .job-place {
+.cards2 .right-cards .cards .card-item .job-place {
     color: gray;
-    font-size: 14px;
-}
-
-.cards2 .content .right-cards .cards .card-item .job-place:hover {
-    color: rgb(83, 83, 83);
 }
 
 @media screen and (max-width: 900px) {
-    .cards2 .content {
-        width: 100%;
-        margin-top: 50px;
+    .cards2 {
         display: flex;
         flex-direction: column;
     }
 
-    .cards2 .content .left-bar {
+    .cards2 .left-bar {
         height: auto;
         border-right: none;
     }
 
-    .cards2 .content .right-cards {
-        padding-left: 0px;
-    }
-
-    .cards2 .content .left-bar .table {
+    .cards2 .left-bar .table {
         width: 250px;
         padding-right: 0px;
     }
-    
+
+    .cards2 .right-cards {
+        padding-left: 0px;
+    }
+
+    .cards2 .right-cards .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        justify-content: left;
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    .cards2 .right-cards .cards .card-item {
+        height: auto;
+        margin-right: 40px;
+        margin-bottom: 10px;
+    }
+
+    .cards2 .right-cards .cards .card-item p {
+        white-space: nowrap;
+    }
+
+    .cards2 .right-cards .header {
+        margin-bottom: 10px;
+    }
 }
 
