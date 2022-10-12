@@ -1,6 +1,10 @@
-/* cards1 */
 .cards1 {
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.cards1 h1 {
+    font-size: 18px;
+    display: none;
 }
 
 .cards1 .cards-grid {
@@ -9,27 +13,34 @@
     flex-wrap: wrap;
     width: auto;
     height: auto;
+    justify-content: center;
+    align-content: center;
 }
 
-.cards1 .cards-grid .card {
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-.cards1 .cards-grid a {
-    text-decoration: none;
-}
 .cards1 .cards-grid .job-card {
     display: flex;
     flex-direction: row;
     border-radius: 3px 3px 3px 3px;
     width: 250px;
     cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .cards1 .cards-grid .job-card:hover{
     box-shadow: -5px 5px 5px 0 rgb(229, 229, 229),
                 2px 2px 3px 0 rgba(229, 229, 229, 1);
+}
+
+.cards1 .flex-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards1 .flex-cont .link-cont {
+    width: 1080px;
+    height: 50px;
 }
 
 .cards1 .cards-grid .job-card .side-bar {
@@ -58,12 +69,12 @@
     font-size: 18px;
 }
 
-.cards1 .cards-grid .job-card .info  .job-price {
+.cards1 .cards-grid .job-card .info .job-price {
     color: black;
     font-size: 16px;
 }
 
-.cards1 .cards-grid .job-card .info  .job-place {
+.cards1 .cards-grid .job-card .info .job-place {
     margin-top: 5px;
     color: grey;
     font-size: 14px;
@@ -71,11 +82,41 @@
 
 .cards1 .more-cards {
     color: rgb(0, 128, 170);
-    font-size: 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cards1 .more-cards:hover {
     color: rgb(0, 54, 72);
+}
+
+@media screen and (max-width: 600px) {
+    .cards1 h1 {
+        display: block;
+    }
+
+    .cards1 .cards-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        justify-content: left;
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    .cards1 .cards-grid .job-card {
+        margin: 10px 20px 10px 0px;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    .cards1 .flex-cont .link-cont {
+        width: 810px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .cards1 .flex-cont .link-cont {
+        width: 540px;
+    }   
 }
