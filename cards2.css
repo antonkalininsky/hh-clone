@@ -1,12 +1,6 @@
-/* cards2 */
 .cards2 {
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
-}
-
-.cards2 .header {
-    margin-bottom: 30px;
 }
 
 .cards2 .left-bar {
@@ -68,7 +62,7 @@
     color: gray;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .cards2 {
         display: flex;
         flex-direction: column;

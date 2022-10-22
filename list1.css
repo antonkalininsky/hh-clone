@@ -1,24 +1,5 @@
-/* list1 */
 .list1 {
-    margin-top: 20px;
     border-bottom: 1px solid rgb(225, 225, 225);
-}
-
-.list1 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.list1 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-.list1 a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: black;
 }
 
 .list1 .content {
@@ -29,10 +10,6 @@
 
 .list1 .content .left-list {
     border-right: 1px solid rgb(225, 225, 225);
-}
-
-.list1 .content .left-list .header {
-    font-weight: bold;
 }
 
 .list1 .content .left-list .list {
@@ -51,11 +28,14 @@
     margin-bottom: 10px;
 }
 
+.list1 .content .right-banner p{
+    color: white;
+}
+
 .list1 .content .right-banner {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: right;
 }
 
 .list1 .content .right-banner .banner-body {
@@ -92,7 +72,7 @@
     color: white;
 }
 
-.list1 .right-banner .app-buttons .app-btn .logo-text .top-text p {
+.list1 .right-banner .app-buttons .app-btn .logo-text .top-text {
     font-size: 10px;
 }
 
@@ -117,7 +97,7 @@
     width: fit-content;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 800px)  {
+@media screen and (max-width: 1200px) and (min-width: 850px) {
     .list1 .content .right-banner .banner-body {
         display: flex;
         flex-direction: column;
@@ -129,14 +109,18 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .list1 .content .left-list .list {
         display: flex;
         flex-direction: column;
     }
+
+    .list1 {
+        border-bottom: none;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .list1 .content {
         width: 100%;
         display: flex;
@@ -145,10 +129,9 @@
 
     .list1 .content .right-banner {
         margin-left: 0px;
-    }    
+    }
 
-    
-.list1 .content .left-list {
-    border-right: none;
-}
+    .list1 .content .left-list {
+        border-right: none;
+    }
 }
